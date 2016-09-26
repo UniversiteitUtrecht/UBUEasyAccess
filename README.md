@@ -18,3 +18,10 @@ Add this in js/eventPage.js, js/notification.js and js/popup.js.
 
 You will probably also want to replace the icons in the images directory.
 
+See also
+https://chrome.google.com/webstore/detail/uu-easy-access-beta/ljinplodhomglnmplihmnjindfaeolpi?hl=en
+and
+http://www.uu.nl/en/university-library/about-the-library/uu-easy-access-browser-extension-beta
+
+
+
