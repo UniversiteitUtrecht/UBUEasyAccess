@@ -1,6 +1,6 @@
 # UBUEasyAccess
 
-================ start
+
 To make this extension work for your institute, you will need to add four pieces of information
 
 1. Your institute's IP range, as used for access to licensed material
@@ -18,4 +18,3 @@ Add this in js/eventPage.js, js/notification.js and js/popup.js.
 
 You will probably also want to replace the icons in the images directory.
 
-================ end
