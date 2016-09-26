@@ -1,0 +1,39 @@
+{
+	"manifest_version" : 2,
+	"name" : "UU Easy Access  (Beta)",
+    "short_name" : "UU Easy Access",
+	"description" : "Get Easy Access to databases and electronic sources provided by the Utrecht University Library.",
+	"version" : "0.10.4",
+	"icons": {
+		"128" : "images/128.png",
+		"48" : "images/48.png",
+		"38" : "images/38.png",
+		"32" : "images/32.png",
+		"19" : "images/19.png",
+	  	"16" : "images/16.png"
+	},
+	"browser_action" : {
+		"default_title" : "Get Easy Access",
+		"default_popup" : "popup.html"	
+	},
+	"background" : {
+		"scripts": ["js/urls.min.js", "js/jquery.min.js","js/eventPage.js","js/notificationbackground.js"]
+	},
+	"options_ui": {
+		"page": "options.html",
+		"chrome_style": true
+	},
+	"permissions": [
+		"webNavigation",
+		"notifications",
+		"tabs",
+		"storage",
+		"*://*/*"
+	],
+	"web_accessible_resources" : [
+		"notification.html",
+		"notification_mini.html",
+		"suggestedsites.html"
+	],
+	"content_security_policy": "script-src 'self' https://www.google-analytics.com; object-src 'self'"
+}

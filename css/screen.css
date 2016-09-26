@@ -1,0 +1,136 @@
+@import "pure.min.css";
+@import "pure-alerts.css";
+
+/* STRUCTURE */
+
+body {
+    width: 420px;
+    background-color: #F9F9F9;
+    font-size: 13px;
+    color: #505050;
+    font-family: 'Open Sans', sans-serif;
+}
+
+body.settings {
+    min-height: 100px;
+}
+
+body.whatsnew {
+    width: 100%;
+    font-size: 15px;
+}
+
+.content {
+    margin: auto;
+    max-width: 630px;
+    padding: 1em;
+}
+
+#header {
+    border-bottom: 1px solid #ccc;
+}
+
+#header h1 {
+    background: url("../images/38.png") no-repeat left center;
+    padding-left: 45px;
+}
+
+#footer {
+    border-top: 1px solid #999;
+    margin-top: 16px;
+}
+
+.info-text {
+    border-bottom: 1px solid #eee;
+    padding-bottom: 1em;
+}
+
+/* Typo */
+
+h2 {
+    color: #777;
+}
+
+.message {
+    font-size: 16px;
+    color: black;
+    text-align: center;
+}
+
+.message.large {
+    font-size: 18px;
+}
+
+a:hover {
+    color: #D81212;
+}
+
+a, a:visited {
+    outline: none;
+    color: darkred;
+}
+
+#login-box i {
+    font-size: 1.3em;
+}
+
+.fa-check {
+    color: green;
+}
+
+.fa-times {
+    color: red;
+}
+
+.center {
+    margin: auto;
+    text-align: center;
+}
+
+/* FORMS AND BUTTONS */
+
+.button-small {
+    font-size: 85%;
+}
+
+.button-success {
+    background: gold; /* this is a green */
+    font-weight: bold;
+}
+
+.button-gray {
+    background: #dadada;
+}
+
+.button-green {
+    background: rgb(28, 184, 65);
+    color: white;
+}
+
+#proxy button {
+    font-size: 16px;
+}
+
+.checkbox, .radio {
+    display: inline-block;
+    position: relative;
+    margin-top: .5em;
+    margin-bottom: .5em;
+}
+
+.checkbox label, .radio label {
+    padding-left: 20px;
+    padding-top: 0;
+    display: inline-block;
+}
+
+.checkbox input[type="checkbox"], .radio input[type="checkbox"], .checkbox input[type="radio"], .radio input[type="radio"] {
+    position: absolute;
+    top: 2px;
+    left: 0;
+}
+
+input[type="checkbox"], input[type="radio"] {
+    box-sizing: border-box;
+    padding: 0;
+}

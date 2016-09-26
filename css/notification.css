@@ -1,0 +1,125 @@
+/*!
+Pure v0.6.0
+Copyright 2014 Yahoo! Inc. All rights reserved.
+Licensed under the BSD License.
+https://github.com/yahoo/pure/blob/master/LICENSE.md
+*/
+.pure-button{display:inline-block;zoom:1;line-height:normal;white-space:nowrap;vertical-align:middle;text-align:center;cursor:pointer;-webkit-user-drag:none;-webkit-user-select:none;-moz-user-select:none;-ms-user-select:none;user-select:none;-webkit-box-sizing:border-box;-moz-box-sizing:border-box;box-sizing:border-box}.pure-button::-moz-focus-inner{padding:0;border:0}.pure-button{font-family:inherit;font-size:100%;padding:.5em 1em;color:#444;color:rgba(0,0,0,.8);border:1px solid #999;border:0 rgba(0,0,0,0);background-color:#E6E6E6;text-decoration:none;border-radius:2px}.pure-button-hover,.pure-button:hover,.pure-button:focus{filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#00000000', endColorstr='#1a000000', GradientType=0);background-image:-webkit-gradient(linear,0 0,0 100%,from(transparent),color-stop(40%,rgba(0,0,0,.05)),to(rgba(0,0,0,.1)));background-image:-webkit-linear-gradient(transparent,rgba(0,0,0,.05) 40%,rgba(0,0,0,.1));background-image:-moz-linear-gradient(top,rgba(0,0,0,.05) 0,rgba(0,0,0,.1));background-image:-o-linear-gradient(transparent,rgba(0,0,0,.05) 40%,rgba(0,0,0,.1));background-image:linear-gradient(transparent,rgba(0,0,0,.05) 40%,rgba(0,0,0,.1))}.pure-button:focus{outline:0}.pure-button-active,.pure-button:active{box-shadow:0 0 0 1px rgba(0,0,0,.15) inset,0 0 6px rgba(0,0,0,.2) inset;border-color:#000\9}.pure-button[disabled],.pure-button-disabled,.pure-button-disabled:hover,.pure-button-disabled:focus,.pure-button-disabled:active{border:0;background-image:none;filter:progid:DXImageTransform.Microsoft.gradient(enabled=false);filter:alpha(opacity=40);-khtml-opacity:.4;-moz-opacity:.4;opacity:.4;cursor:not-allowed;box-shadow:none}.pure-button-hidden{display:none}.pure-button::-moz-focus-inner{padding:0;border:0}.pure-button-primary,.pure-button-selected,a.pure-button-primary,a.pure-button-selected{background-color:#0078e7;color:#fff}
+
+
+body {
+    padding:0;
+    margin:0;
+}
+
+#wrapper {
+    position: fixed;
+    width: 270px;
+    text-align: center;
+    background-color: white;
+    font-size: 13px;
+    font-family: 'Open Sans', sans-serif;
+    z-index: 1100;
+    opacity: 0.8;
+    border: solid 3px gold;
+    box-shadow: 6px 5px 2pc black;
+    padding: 6px;
+    border-radius: 10px;
+}
+#wrapper.topleft {
+	top: 2%;
+	left: 2em;
+}
+#wrapper.topright {
+	top: 2%;
+	right: 2em;
+}
+#wrapper.bottomright {
+	bottom: 0.5em;
+	right: 1.5em;
+}
+#wrapper.middle {
+	top: 45%;
+	left: 40%;
+	margin:auto;
+}
+#close_notification {
+	position: absolute;
+	top: 1%;
+	right: 1%;
+}
+
+#mini_wrapper {
+    position: fixed;
+    width: 65px;
+    z-index: 1100;
+}
+#mini_wrapper #close_notification {
+    left: 5px;
+    top: 6px;
+    padding: 0px 3px;
+    border-radius: 7px;
+    border: 0px;
+    background-color: white;
+    color: black;
+    cursor: pointer;
+}
+#mini_wrapper #close_notification:hover {
+    color: white;
+    background-color: black;
+}
+#small_note_loginbutton {
+    cursor: pointer;
+}
+
+#medium_wrapper {
+	position: fixed;
+	width: 150px;
+	z-index: 1100;
+}
+
+
+
+#login-box i {
+    font-size: 1.3em;
+}
+
+.message {
+	margin: 5px 5px 5px 5px;
+}
+
+.button-success {
+    background: gold; /* this is a green */
+    font-weight: bold;
+}
+
+.button-yellow {
+    background-color: rgb(247, 207, 15);
+    color: #1D1B1B;
+    margin: 10px;
+}
+
+.button-gray {
+    background: #dadada;
+}
+
+.button-green {
+    background: rgb(28, 184, 65);
+    color: white;
+}
+
+a:hover {
+    color: #D81212;
+}
+
+a, a:visited {
+    outline: none;
+    color: darkred;
+}
+
+
+
+#proxy button {
+    font-size: 16px;
+}
+
