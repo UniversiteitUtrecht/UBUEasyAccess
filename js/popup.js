@@ -21,6 +21,7 @@ var getRedirectUrl = chrome.extension.getBackgroundPage().getRedirectUrl;
 })(window, document, 'script', 'https://www.google-analytics.com/analytics.js', 'ga');
 
 ga('create', '[your profile]', 'auto');
+ga('set', 'anonymizeIp', true);
 ga('set', 'checkProtocolTask', null); //to make it work with extension, rather than http
 ga('send', 'pageview', 'notification.html');
 
