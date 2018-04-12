@@ -54,6 +54,7 @@ var getRedirectUrl = function (url) {
 
 
 ga('create', '[your profile id]', 'auto');
+ga('set', 'anonymizeIp', true);
 ga('set', 'checkProtocolTask', null); //to make it work with extension, rather than http
 ga('send', 'pageview', 'notification.html');
 
